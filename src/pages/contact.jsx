@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+
 
 export default function Contact (){
   return(
@@ -25,7 +25,7 @@ export default function Contact (){
                 </th>
                 
                 <td class="px-6 py-4">
-                    <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">samiye.ahsan16@gmail.com</a>
+                    <a href="mailto:samiye.ahsan16@gmail.com" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">samiye.ahsan16@gmail.com</a>
                 </td>
             </tr>
             <tr class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
@@ -34,7 +34,7 @@ export default function Contact (){
                 </th>
                
                 <td class="px-6 py-4">
-                    <Link href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">https://github.com/samiyeahsan</Link>
+                    <a href="https://github.com/samiyeahsan" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">https://github.com/samiyeahsan</a>
                 </td>
             </tr>
             <tr class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
@@ -52,9 +52,7 @@ export default function Contact (){
                 </th>
                 
                 <td class="px-6 py-4">
-                    <Link href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">www.linkedin.com/in/
-samiye-ahsan-b2291a2a3/
-</Link>
+                    <a href="https://www.linkedin.com/in/samiye-ahsan-b2291a2a3/"  class="font-medium text-blue-600 dark:text-blue-500 hover:underline">www.linkedin.com/in/samiye-ahsan-b2291a2a3/</a>
                 </td>
             </tr>
             
