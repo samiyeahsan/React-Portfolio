@@ -4,7 +4,7 @@ import Project from '../component/Project';
 export default function Portfolio (){
   const projects=[
     {
-      title:"project1",
+      title:"PasswordGenerator",
       description: "",
       repo: "#",
       deployed: "#",
@@ -33,7 +33,7 @@ export default function Portfolio (){
       image:""
     },
     {
-      title:"project1",
+      title:"project6",
       description: "",
       repo: "#",
       deployed: "#",
